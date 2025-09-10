@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TETRIS Juego</title>
+    <link rel="stylesheet" href="tetris.css">
+</head>
+<body>
+    <div class="game-container">
+        <h1>Tetris By Osin</h1>
+        <div id="game-board">
+        </div>
+        <!-- Panel de info del juego -->
+        <div class="info-panel">
+            <div class="info-box">
+                <h3>PUNTUACION</h3>
+                <div id="score">0</div>
+            </div>
+            <div class="info-box">
+                <h3>NIVEL</h3>
+                <div id="level">1</div>
+            </div>
+        </div>
+        <!-- Controles del juego -->
+        <div class="controls">
+            <p>Usa las flechas de tu teclado:</p>
+            <p>← → : Mover izquierda/derecha</p>
+            <p>↑ : Rotar pieza</p>
+            <p>↓ : Bajar mas rapido</p>
+            <p>Espacio: Caida instantanea</p>
+        </div>
+        <!-- Botones del control -->
+        <button class="btn btn-start" id="start-btn">Iniciar</button>
+        <button class="btn" id="reset-btn">Reiniciar</button>
+    </div>
+    <script src="tetris.js"></script>
+</body>
+</html>
